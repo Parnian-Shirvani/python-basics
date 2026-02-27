@@ -35,9 +35,9 @@ print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ ")
 
 for item in list_1 :
     if isinstance(item, str) :
-        print(f"{list_1[i]} is a mathematics course.")
+        print(f"{item} is a mathematics course.")
     else :
-        print(f"{list_1[i]} is a number.")
+        print(f"{item} is a number.")
 
 print("____________________________")
 
